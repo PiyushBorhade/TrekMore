@@ -1,0 +1,262 @@
+.main{
+	width: 210vh;
+	height: 98vh;
+	background-image: url("https://logopond.com/logos/3f5a1fdde1611aca24dd0175abc57da6.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;	
+}
+
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding left: 5%;
+padding right: 5%;
+padding-top: 25px; 
+
+}
+
+nav ul li{
+display: inline-block;
+list-style-type: none;
+padding: 10px 25px;
+}
+
+nav ul li a{
+text-decoration: none;
+color: blue;
+font-weight: bold;
+text-transform: capitalize;
+font-family: unset;
+
+}
+
+ul li a:hover{
+	transition: .6s ease;
+	border: 2px solid #f9004d;
+}
+
+h1{
+  font-size: 40px;
+  color: red;
+  margin: 20px 0px 20px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px 5px black;
+  margin-left: 80px;
+}
+
+h3{
+	 font-size: 28px;
+  color: green;
+  margin-bottom: 50px;
+   margin-left: 80px;
+}
+
+h4{
+	 font-size: 28px;
+  color: green;
+  letter-spacing: 2px;
+   margin-left: 80px;
+   margin-top: 120px;
+}
+
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+
+.about img{
+	height: auto;
+	width: 430px;
+}
+
+.about-text{
+	width: 550px;
+}
+
+.main1{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.about-text h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+
+.about-text h5{
+	color: white;
+	font-size: 22px;
+	letter-spacing: 2px;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+}
+
+.about-text p{
+	color: #fcfc;
+	letter-spacing: 1px;
+	line-height: 20px;
+	font-size: 18px;
+margin-bottom: 45px;
+}
+
+button{
+	background-color: #f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transition;
+	font-weight: bold;
+	padding: 13px 30px;
+	transition: .6s; 
+}
+
+
+button :hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+
+.gal{
+	background-color: #f9004d;
+	width: 100%;
+	cursor: pointer;
+}
+
+.gal h3{
+	color: white;
+	font-size: 50px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.image_main{
+padding-right: 20px;
+padding: 35px;
+display: flex;
+padding-left: 20px;
+}
+
+
+
+.image{
+	flex-wrap: wrap;
+	padding-left: 20px;
+
+}
+
+
+
+
+
+
+
+.explore{
+	background-color: #f9004d;
+	width: 100%;
+	cursor: pointer;
+}
+
+.explore h2{
+	color: white;
+	font-size: 50px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+} 
+
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+
+.card{
+	height: 365px;
+	width: 335px;
+	padding: 20px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+.card .button{
+	background-color: #f9004d;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 15px;
+	transition: .6s;
+	border: 2px solid transparent;
+}
+
+.card .button :hover{
+	background-color: transparent;
+	border: 2px solid #f9004d;
+	cursor: pointer;
+}
+
+h5{
+	color: white;
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+
+.pra p{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+
+.footer-container{
+	background-color: #212329;
+	padding-bottom: 4rem;
+}
+
+.footer{
+	width: 70%;
+	height: 24vh;
+	background-color: #212329;
+color: #fff;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin: 0 auto;
+}
+
+.footer-heading{
+	display: flex;
+	flex-direction: column;
+	margin-right: 10rem;
+}
+
+.footer-heading .icon{
+	height: 15px;
+	width: 15px; 
+	justify-content: space-between;
+	float: left;
+	margin: 15px;
+	align-items: center;
+	padding: 15px;
+}
+
+.c{
+	text-align: center;
+	font-size: 20px;
+	color: #f9004d;
+}
